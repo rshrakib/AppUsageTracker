@@ -1,0 +1,219 @@
+/* Base styles for all modes */
+.root {
+    -fx-font-family: "Arial";
+}
+
+.pie-chart {
+    -fx-legend-side: bottom;
+    -fx-background-color: transparent;
+}
+
+.chart-pie {
+    -fx-border-width: 2px;
+    -fx-background-color: -fx-pie-color;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.list-view {
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 5px;
+}
+
+/* Light Mode Styles */
+.light-mode {
+    -fx-background-color: #f4f4f4;
+}
+
+.light-mode #header {
+    -fx-background-color: linear-gradient(to bottom, #1e90ff, #4169e1);
+}
+
+.light-mode #title-label {
+    -fx-text-fill: #ffffff;
+}
+
+.light-mode #total-time-text {
+    -fx-fill: #ffffff;
+}
+
+.light-mode #current-app-label {
+    -fx-text-fill: #333;
+}
+
+.light-mode .chart-title {
+    -fx-text-fill: #333;
+}
+
+.light-mode .chart-pie {
+    -fx-border-color: #4169e1;
+}
+
+.light-mode .chart-pie-label {
+    -fx-fill: #333;
+}
+
+.light-mode .chart-legend .label {
+    -fx-text-fill: #333;
+}
+
+.light-mode .list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d3d3d3;
+}
+
+.light-mode .list-cell {
+    -fx-text-fill: #333;
+}
+
+.light-mode .list-cell:even {
+    -fx-background-color: #f9f9f9;
+}
+
+.light-mode .list-cell:odd {
+    -fx-background-color: #ffffff;
+}
+
+.light-mode .list-cell:hover {
+    -fx-background-color: #e0f7fa;
+    -fx-text-fill: #0277bd;
+}
+
+.light-mode #history-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.light-mode #history-button:hover {
+    -fx-background-color: #45a049;
+    -fx-cursor: hand;
+}
+
+.light-mode #back-button {
+    -fx-background-color: #FF9800;
+    -fx-text-fill: white;
+}
+
+.light-mode #back-button:hover {
+    -fx-background-color: #e68900;
+    -fx-cursor: hand;
+}
+
+.light-mode #theme-toggle-button {
+    -fx-background-color: #666;
+    -fx-text-fill: white;
+}
+
+.light-mode #theme-toggle-button:hover {
+    -fx-background-color: #555;
+    -fx-cursor: hand;
+}
+
+.light-mode .legend-label {
+    -fx-text-fill: #333;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    -fx-background-color: #1e1e1e;
+}
+
+.dark-mode #header {
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #34495e);
+}
+
+.dark-mode #title-label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-mode #total-time-text {
+    -fx-fill: #e0e0e0;
+}
+
+.dark-mode #current-app-label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-mode .chart-title {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-mode .chart-pie {
+    -fx-border-color: #34495e;
+}
+
+.dark-mode .chart-pie-label {
+    -fx-fill: #e0e0e0;
+}
+
+.dark-mode .chart-legend .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-mode .list-view {
+    -fx-background-color: #2a2a2a;
+    -fx-border-color: #444;
+}
+
+.dark-mode .list-cell {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-mode .list-cell:even {
+    -fx-background-color: #333;
+}
+
+.dark-mode .list-cell:odd {
+    -fx-background-color: #2a2a2a;
+}
+
+.dark-mode .list-cell:hover {
+    -fx-background-color: #3a4b5c;
+    -fx-text-fill: #ffffff;
+}
+
+.dark-mode #history-button {
+    -fx-background-color: #66BB6A;
+    -fx-text-fill: #1e1e1e;
+}
+
+.dark-mode #history-button:hover {
+    -fx-background-color: #5cb860;
+    -fx-cursor: hand;
+}
+
+.dark-mode #back-button {
+    -fx-background-color: #FFA726;
+    -fx-text-fill: #1e1e1e;
+}
+
+.dark-mode #back-button:hover {
+    -fx-background-color: #fb8c00;
+    -fx-cursor: hand;
+}
+
+.dark-mode #theme-toggle-button {
+    -fx-background-color: #bbb;
+    -fx-text-fill: #1e1e1e;
+}
+
+.dark-mode #theme-toggle-button:hover {
+    -fx-background-color: #aaa;
+    -fx-cursor: hand;
+}
+
+.dark-mode .legend-label {
+    -fx-text-fill: #e0e0e0;
+}
